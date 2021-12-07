@@ -1,5 +1,0 @@
-package com.tolgakmbl.microservices.apigateway.config;
-
-public class ApiGatewayConfiguration {
-
-}

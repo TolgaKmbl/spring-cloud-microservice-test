@@ -1,5 +1,0 @@
-package com.tolgakmbl.microservices.currencyconversionservice.controller;
-
-public class CurrencyConversionControllers {
-
-}

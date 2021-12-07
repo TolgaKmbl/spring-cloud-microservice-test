@@ -1,5 +1,0 @@
-package com.tolgakmbl.microservices.currencyexchangeservice.repository;
-
-public interface CurrencyExchangeRepository {
-
-}

@@ -1,5 +1,0 @@
-package com.tolgakmbl.microservices.currencyexchangeservice.service;
-
-public class CurrencyExchangeService {
-
-}

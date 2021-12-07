@@ -1,5 +1,0 @@
-package com.tolgakmbl.microservices.currencyexchangeservice.controllers.model;
-
-public class CurrencyExchange {
-
-}
