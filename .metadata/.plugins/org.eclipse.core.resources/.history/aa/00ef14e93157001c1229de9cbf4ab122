@@ -1,0 +1,5 @@
+package com.tolgakmbl.microservices.currencyexchangeservice.controller;
+
+public class CircuitBreakController {
+
+}

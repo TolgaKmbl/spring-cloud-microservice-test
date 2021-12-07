@@ -1,0 +1,6 @@
+package com.tolgakmbl.microservices.currencyexchangeservice.service;
+
+@Service
+public class CurrencyExchangeService {
+
+}

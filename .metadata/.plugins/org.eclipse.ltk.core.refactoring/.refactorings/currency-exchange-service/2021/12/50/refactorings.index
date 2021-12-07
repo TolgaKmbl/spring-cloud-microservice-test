@@ -1,0 +1,6 @@
+1638799700575	Extract local variable 'environment2'
+1638800049402	Move compilation unit
+1638800053842	Delete element
+1638802055837	Extract method 'getEnvironmentProperty'
+1638806353436	Rename package 'com.tolgakmbl.microservices.currencyexchangeservice.controllers'
+1638863518378	Extract local variable 'forEntity'

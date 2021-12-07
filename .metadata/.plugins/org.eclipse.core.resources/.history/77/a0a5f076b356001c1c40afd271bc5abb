@@ -1,0 +1,5 @@
+package com.tolgakmbl.microservices.currencyconversionservice;
+
+public interface CurrencyExchangeProxy {
+
+}

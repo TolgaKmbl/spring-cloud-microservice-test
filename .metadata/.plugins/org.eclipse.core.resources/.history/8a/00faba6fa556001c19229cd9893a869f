@@ -1,0 +1,25 @@
+package com.tolgakmbl.microservices.currencyexchangeservice.service;
+
+import java.util.Optional;
+
+import org.springframework.stereotype.Service;
+
+import com.tolgakmbl.microservices.currencyexchangeservice.exception.CurrencyNotFoundException;
+import com.tolgakmbl.microservices.currencyexchangeservice.model.CurrencyExchange;
+import com.tolgakmbl.microservices.currencyexchangeservice.repository.CurrencyExchangeRepository;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class CurrencyExchangeService {
+
+	private final CurrencyExchangeRepository currencyExchangeRepository;	
+	
+	public Optional<CurrencyExchange> getExchangeValue(String from, String to) {		
+		
+		return currencyExchangeRepository.findByFromAndTo(from, to).get().orElseThrow(
+				() -> new CurrencyNotFoundException("Currency is not found")));
+	}
+
+}

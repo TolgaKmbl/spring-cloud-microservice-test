@@ -1,0 +1,5 @@
+package com.tolgakmbl.microservices.apigateway;
+
+public class LoggingFilter implements GlobalFilter{
+
+}

@@ -1,0 +1,16 @@
+package com.tolgakmbl.microservices.currencyconversionservice.controller;
+
+import org.springframework.web.bind.annotation.*;
+
+import com.tolgakmbl.microservices.currencyconversionservice.model.CurrencyConversion;
+
+@RestController
+public class CurrencyConversionController {
+
+	@GetMapping("/currency-conversion/from/{from}/to/{to}/quantity/{quantity}")
+	public CurrencyConversion calculateCurrencyConversion(@PathVariable("from") String from, 
+			@PathVariable("to") String to, 
+			@PathVariable("quantity") int quantity) {
+		
+	}
+}

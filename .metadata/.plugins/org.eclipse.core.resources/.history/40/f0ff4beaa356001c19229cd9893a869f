@@ -1,0 +1,33 @@
+package com.tolgakmbl.microservices.currencyexchangeservice.service;
+
+import java.math.BigDecimal;
+
+import org.springframework.core.env.Environment;
+import org.springframework.stereotype.Service;
+
+import com.tolgakmbl.microservices.currencyexchangeservice.model.CurrencyExchange;
+import com.tolgakmbl.microservices.currencyexchangeservice.repository.CurrencyExchangeRepository;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class CurrencyExchangeService {
+
+	private final CurrencyExchangeRepository currencyExchangeRepository;
+	private final Environment environment;	
+	
+	public CurrencyExchange getExchangeValue(String from, String to) {		
+		String port = getEnvironmentProperty();
+		
+		return currencyExchangeRepository.save(CurrencyExchange(1L, 
+				from, 
+				to, 
+				BigDecimal.valueOf(35), 
+				port));
+	}
+	
+	private String getEnvironmentProperty() {
+		return environment.getProperty("local.server.port");
+	}
+}

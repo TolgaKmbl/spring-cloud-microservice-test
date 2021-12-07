@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\tolga\Documents\Microservices\api-gateway"/>
+			<item value="C:\Users\tolga\Documents\Microservices\naming-server"/>
+			<item value="C:\Users\tolga\Documents\Microservices\currency-conversion-service"/>
+			<item value="C:\Users\tolga\Documents\Microservices\currency-exchange-service"/>
+			<item value="C:\Users\tolga\Documents\Microservices\spring-cloud-config-server"/>
+			<item value="C:\Users\tolga\Documents\Microservices\limit-service"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

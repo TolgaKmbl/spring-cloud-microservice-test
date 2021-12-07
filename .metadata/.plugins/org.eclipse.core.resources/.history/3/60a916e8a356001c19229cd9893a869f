@@ -1,0 +1,14 @@
+package com.tolgakmbl.microservices.currencyexchangeservice.service;
+
+import org.springframework.stereotype.Service;
+
+import com.tolgakmbl.microservices.currencyexchangeservice.repository.CurrencyExchangeRepository;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class CurrencyExchangeService {
+
+	private final CurrencyExchangeRepository currencyExchangeRepository;
+}

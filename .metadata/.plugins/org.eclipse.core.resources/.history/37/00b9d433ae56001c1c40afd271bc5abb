@@ -1,0 +1,5 @@
+package com.tolgakmbl.microservices.currencyconversionservice.model;
+
+public class CurrencyConversion {
+
+}

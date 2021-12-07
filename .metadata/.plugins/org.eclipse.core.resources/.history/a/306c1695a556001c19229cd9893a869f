@@ -1,0 +1,6 @@
+package com.tolgakmbl.microservices.currencyexchangeservice.exception;
+
+@RestControllerAdvice
+public class GeneralExceptionHandler extends ResponseEntityExceptionHandler{
+
+}

@@ -1,0 +1,13 @@
+package com.tolgakmbl.microservices.currencyexchangeservice.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CircuitBreakController {
+
+	
+	public String sampleApi() {
+		return "Sample API";
+	}
+	
+}

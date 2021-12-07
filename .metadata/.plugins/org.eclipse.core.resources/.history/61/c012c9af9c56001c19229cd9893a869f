@@ -1,0 +1,10 @@
+package com.tolgakmbl.microservices.currencyexchangeservice.controllers.model;
+
+public class CurrencyExchange {
+
+	private long id;
+	private String from;
+	private String to;
+	private double conversionMultiple;
+	 
+}
