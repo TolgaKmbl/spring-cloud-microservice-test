@@ -13,7 +13,7 @@ services:
       - naming-server
       - rabbitmq
     environment:
-      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka # If we let it like  http://localhost:8761/eureka, Docker will try to connect to its own localhost and fail.
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka # If we let it be like  http://localhost:8761/eureka, Docker will try to connect to its own localhost and fail.
       SPRING.ZIPKIN.BASEURL: http://zipkin-server:9411/ # Zipkin's location same as eureka client
       RABBIT_URI: amqp://guest:guest@rabbitmq:5672
       SPRING_RABBITMQ_HOST: rabbitmq
